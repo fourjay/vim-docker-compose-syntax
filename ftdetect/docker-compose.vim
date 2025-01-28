@@ -1,2 +1,2 @@
-au BufRead,BufNewFile docker-compose* set syntax=yaml.docker-compose  " Order matters
-au BufRead,BufNewFile docker-compose* set filetype=yaml.docker-compose  
+au BufRead,BufNewFile compose.ya*ml set syntax=yaml.docker-compose
+au BufRead,BufNewFile docker_stack.ya*ml set filetype=yaml.docker-compose
